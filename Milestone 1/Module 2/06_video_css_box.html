@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+        .bordering {
+            /* border: 20px solid blue;
+            margin: 20px ; 
+
+            padding: 20px ; */
+
+            border-radius: 60px;
+
+            border: 20px solid blue;
+            /* TB RB */
+            margin: 20px 30px;
+            padding: 20px 30px;
+            
+        }
+        input{
+            color: rgb(100, 26, 26);
+        }
+        /* this is styling using attribute selector */
+        input[type="text"]{
+            color: rgb(77, 77, 241);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="bordering">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum qui natus sit, possimus labore ipsam dicta rem
+            nostrum praesentium. Odio?</p>
+    </div>
+    <div class="bordering">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum qui natus sit, possimus labore ipsam dicta rem
+            nostrum praesentium. Odio?</p>
+    </div>
+    <div class="bordering">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum qui natus sit, possimus labore ipsam dicta rem
+            nostrum praesentium. Odio?</p>
+    </div>
+    <input type="text" placeholder="type here">
+    <br>
+    <br>
+    <input type="password" name="" id="" placeholder="password">
+</body>
+
+</html>

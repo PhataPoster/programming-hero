@@ -1,0 +1,24 @@
+.div{
+    background-color: lightblue;
+    border: 20px solid blue;
+    padding: 20px;
+    margin: 30px;
+    text-decoration: wavy underline;
+    border-radius: 20px;
+    width: 400px;
+    box-shadow: 30px 30px 10px gray;
+}
+input{
+    background-color: aquamarine;
+    color: rgb(100, 26, 26);
+    /* visibility: hidden; */
+    /* display: none; */
+}
+select{
+    background-color: lightcoral;
+    color: white;
+}
+
+input[type="checkbox"]{
+   accent-color: red;
+}
