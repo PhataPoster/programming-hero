@@ -1,0 +1,60 @@
+ GITHUB INITIAL COMMANDS (USING GIT)
+
+------------------------------------------------
+1. Check Git version
+------------------------------------------------
+git --version
+
+------------------------------------------------
+2. Configure Git (first time only)
+------------------------------------------------
+git config --global user.name "Your Name"
+git config --global user.email "your@email.com"
+
+------------------------------------------------
+3. Create a new repository (local)
+------------------------------------------------
+git init
+
+------------------------------------------------
+4. Check repository status
+------------------------------------------------
+git status
+
+------------------------------------------------
+5. Add files to staging area
+------------------------------------------------
+git add file_name
+git add .          (add all files)
+
+------------------------------------------------
+6. Commit changes
+------------------------------------------------
+git commit -m "Initial commit"
+
+------------------------------------------------
+7. Add GitHub remote repository
+------------------------------------------------
+git remote add origin https://github.com/username/repository-name.git
+
+------------------------------------------------
+8. Check remote repository
+------------------------------------------------
+git remote -v
+
+------------------------------------------------
+9. Push code to GitHub
+------------------------------------------------
+git branch -M main
+git push -u origin main
+
+------------------------------------------------
+10. Clone a GitHub repository
+------------------------------------------------
+git clone https://github.com/username/repository-name.git
+
+------------------------------------------------
+11. Pull latest changes
+------------------------------------------------
+git pull origin main
+------------------------------------------------

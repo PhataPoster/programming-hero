@@ -1,0 +1,17 @@
+
+Git vs GitHub
+
+---------------------------------------------------------
+Feature              | Git                     | GitHub
+---------------------------------------------------------
+Type                 | Version control system  | Code hosting platform
+Purpose              | Tracks code changes     | Stores & shares repositories
+Works Offline        | Yes                     | No
+Internet Required    | No                      | Yes
+Installation         | Required                | Not required
+Code Storage         | Local machine           | Cloud (online)
+Collaboration        | Limited                 | Strong
+Interface            | Command line (CLI)      | Web interface
+Cost                 | Free & open source      | Free + paid plans
+Owner                | Open source community   | Microsoft
+---------------------------------------------------------
