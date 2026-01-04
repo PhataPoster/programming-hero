@@ -1,0 +1,61 @@
+header{
+    background-color: rgb(234, 230, 237);
+    border-radius: 5px;
+    margin-top: 20px;
+}
+nav{
+    text-align: center;
+    
+    border-radius: 5px;
+    margin-top: 20px;
+    background-color: rgb(18, 148, 209);
+    
+}
+header nav a {
+   
+    text-decoration: none;
+    color: rgb(4, 4, 108);
+    display: inline-block;
+    margin-right: 20px;
+    padding: 10px;
+    /* border: 2px solid rgb(5, 12, 64); */
+    
+    border-radius: 5px; 
+    font-weight: bold;
+    font-size: 15px;
+    /* background-color: rgb(2, 10, 85); */
+    
+}
+header nav a:hover {
+    background-color: lightgreen;
+}
+article header h3 {
+    text-align: center;
+    color: brown;
+}
+figure{
+    padding-top: 20px;
+    text-align: center;
+}
+figure img{
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+}
+figcaption{
+    font-size: 14px;
+    text-align: center;
+}
+
+h5{
+    font-size: 15px;
+    color: rgb(18, 148, 209);
+}
+footer{
+    text-align: center;
+    background-color: rgb(25, 23, 27);
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 10px;
+    color: white;
+}   
