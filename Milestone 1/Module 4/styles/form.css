@@ -1,0 +1,19 @@
+header h2{
+    text-align: center;
+    color: brown;
+}
+form{
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid rgb(17, 122, 234);
+    border-radius: 10px;
+    background-color: rgb(19, 170, 245);
+}
+form input[type="text"], form input[type="email"], form textarea{
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid rgb(7, 221, 254);
+    border-radius: 5px;
+}

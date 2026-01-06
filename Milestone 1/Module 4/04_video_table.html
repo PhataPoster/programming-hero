@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table</title>
+    <link rel="stylesheet" href="styles/nav.css">
+    <style>
+        h2 {
+            text-align: center;
+        }
+        table {
+            width: 60%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            border: 2px solid black;
+        }
+        th, td {
+            border: 2px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        tfoot td {
+            font-weight: bold;
+            text-align: center;
+        }
+        caption {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+         <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="01_video_vid_aud_tag.html">tour</a></li>
+                <li><a href="02_video_css.html">Blog</a></li>
+                <li><a href="03_video_position.html">registration</a></li>
+                <li>
+                    <a href="04_video_table.html">table</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+        <h2>Library</h2>
+    </header>
+    
+    <table>
+        <caption>
+        Book List
+    </caption>
+        <thead>
+            <tr>
+                <th>
+                    Book Name
+                </th>
+                <th>
+                    author
+                </th>
+                <th>
+                    edition
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    Harry Potter and the Sorcerer's Stone
+                </td>
+                <td>
+                    J.K. Rowling
+                </td>
+                <td>
+                    1st Edition
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    The Hobbit
+                </td>
+                <td>
+                    J.R.R. Tolkien
+                </td>
+                <td>
+                    2nd Edition
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    1984
+                </td>
+                <td>
+                    George Orwell
+                </td>
+                <td>
+                    3rd Edition
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    To Kill a Mockingbird
+                </td>
+                <td>
+                    Harper Lee
+                </td>
+                <td>
+                    1st Edition
+                </td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">
+                    Total Books: 4
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
